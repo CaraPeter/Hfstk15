@@ -1,0 +1,78 @@
+/*main4.css is gemaakt alls basis voor alle files - gemeeschappelijk*/
+/*kleuren gekozen door adobe kleurwiel*/
+body{
+    background-color:#F7EFDC;
+    text-align: center;
+    margin-left: 15%;
+    margin-right: 15%;
+    padding: 5px;
+}
+/* Info betreft de headerkeuze */
+ul a{
+    color:white;
+    text-decoration:none;
+}
+/* header_keuze - class gebruikt daar verder nog een oplijsting gebruikt wordt*/
+li.keuze{
+    display: inline-block; /*naast elkaar plaatsen*/
+    box-shadow:0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    border-radius: 8px;
+    height:22px;
+    width:20%;
+    padding:5px;
+    text-align:center;
+    color:white;
+    border-left: 2px solid #74F2C3;
+    border-right: 1px solid #74F2C3;
+    background-color:#973EB0;
+    font-family: 'Montserrat',sans-serif;
+
+}
+li.keuze:hover{
+    background-color:#DF7AFA;
+    border-style:none;
+    box-shadow:none;  
+    font-family: 'Montserrat',sans-serif;
+}
+/*opmaak oplijsting verder in de tekst*/
+li{
+    display: inline-block;
+    border-radius: 8px;
+    height:22px;
+    width:135px;
+    padding:1%;
+    background-color:#74F2C3;
+    margin: 3px;
+    font-family: 'Ubuntu', sans-serif;
+
+}
+/*Allerlei*/
+p{
+    font-family: 'Ubuntu', sans-serif;  
+    margin:20px 0px 0px 10px;
+    text-align: left;
+    
+}
+
+h1,h2{ 
+    color:#973EB0;
+    font-family: 'Montserrat',sans-serif;
+}
+
+img{
+    border:#973EB0 1px solid;
+    padding: 6px;
+    margin:0px 10px 10px 10px;
+    width: 25%;
+    vertical-align: top;
+    float: left;
+
+}
+/*Plaatsen van de footer op de onderste rij van het blad*/
+footer{
+    position:absolute;
+    bottom:20px;
+    font-size: 70%;
+    width: 80%;
+    padding: 5px;
+}
